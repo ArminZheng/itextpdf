@@ -71,7 +71,6 @@ public class GeneratePdfReport {
             document.close();
 
         } catch (DocumentException ex) {
-
             logger.error("Error occurred: {0}", ex);
         }
 
